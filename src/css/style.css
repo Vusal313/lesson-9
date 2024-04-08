@@ -1,0 +1,231 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  .container {
+    img {
+      cursor: pointer;
+    }
+    .inputt {
+      display: flex;
+      gap: 10px;
+      margin-right: 24rem;
+      input {
+        width: 30rem;
+        padding: 10px 10px;
+        border-radius: 10px;
+        outline: none;
+        border: 3px solid rgb(39, 142, 39);
+      }
+      button {
+        width: 9rem;
+        padding: 10px;
+        border-radius: 10px;
+        display: flex;
+        justify-content: space-around;
+        align-items: baseline;
+        border: 0;
+      }
+    }
+
+    .icon {
+      i {
+        font-size: 24px;
+        margin-left: 10px;
+        position: relative;
+        cursor: pointer;
+
+        span {
+          font-size: 10px;
+          color: #fff;
+          font-weight: bold;
+          border-radius: 50%;
+          padding: 6px;
+          background-color: rgb(39, 142, 39);
+          position: absolute;
+          top: -9px;
+          left: 15px;
+        }
+      }
+    }
+  }
+}
+.dropdown-menu {
+  .container {
+    position: relative;
+    button {
+      background-color: rgb(39, 142, 39);
+      font-size: 20px;
+      font-weight: bold;
+
+      i {
+        margin-right: 5px;
+        font-size: 20px;
+      }
+    }
+    .menu {
+      list-style: none;
+      padding: 0;
+      margin-left: 340px;
+      display: inline-block;
+      position: absolute;
+      top: -3px;
+    }
+    .menu li {
+      float: left;
+      position: relative;
+    }
+    .menu li a {
+      display: block;
+      color: #000;
+      font-weight: bold;
+
+      text-align: center;
+      padding: 14px 26px;
+      text-decoration: none;
+    }
+    .menu li:hover {
+      background-color: #d7d8d8;
+      border-radius: 10px;
+    }
+    .submenu {
+      display: none;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      background-color: #f0f3f2;
+      border-radius: 10px;
+
+      min-width: 50px;
+    }
+    .submenu li {
+      display: block;
+    }
+    .submenu li a {
+      color: #000;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+    }
+
+    .submenu li a:hover {
+      color: rgb(39, 142, 39);
+    }
+    .menu li:hover .submenu {
+      display: block;
+    }
+  }
+}
+.section1 {
+  width: 100%;
+  height: 700px;
+
+  .container {
+    margin: 0 auto;
+
+    .slider {
+      width: 100%;
+      overflow: hidden;
+      margin-top: 40px;
+    }
+
+    .slide {
+      width: 100%;
+      height: 100%;
+      display: none;
+      position: relative;
+
+      .text {
+        position: absolute;
+        top: 150px;
+        left: 50px;
+
+        h6 {
+          background-color: orange;
+          width: 60%;
+          padding: 3px 0px 3px 10px;
+          border-radius: 10px;
+        }
+        h1 {
+          font-size: 50px;
+        }
+        p {
+          font-size: 20px;
+        }
+        button {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: 10px;
+          padding: 5px 15px;
+          border-radius: 10px;
+          background: #000;
+          color: #fff;
+        }
+      }
+    }
+
+    .slide img {
+      width: 100%;
+      height: 100%;
+      border-radius: 20px;
+    }
+
+    .active {
+      display: block;
+    }
+  }
+}
+.section2 {
+  width: 100%;
+  height: 100vh;
+
+  .container {
+
+    .row-cols-lg-6{
+      gap: 15px;
+      .col-md-6{
+        border-radius: 10px;
+        transition: 0.5s;
+        overflow: hidden;
+     
+
+        &:hover{
+          border: 2px solid rgb(39, 142, 39);
+          box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        }
+        .custom-card{
+        border-radius: 10px;
+
+        }
+      }
+      .card-body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+         h5{
+        margin-top: 35px;
+        text-align: center;
+        color: grey;
+      } 
+      }
+    
+    }
+  }
+
+}
+.section3{
+  width: 100%;
+  height: 100vh;
+  .container{
+.col-md-6{
+  &:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  }
+}
+
+  }
+}

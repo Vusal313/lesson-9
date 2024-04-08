@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./src/css/bootstrap.css" />
+    <link rel="stylesheet" href="./src/css/style.css" />
+    <title>Bootstrap</title>
+  </head>
+  <body>
+    <div class="navbar dropdown-menu">
+      <div class="container">
+        <img src="./src/img/freshcart-logo.svg" alt="..." />
+
+        <div class="inputt">
+          <input type="search" placeholder="search hold product" id input />
+          <button><i class="fa-solid fa-location-dot"></i> Location</button>
+        </div>
+        <div class="icon">
+          <i class="fa-regular fa-heart"><span>5</span></i>
+          <i class="fa-regular fa-user"></i>
+          <i class="fa-brands fa-shopify"><span>1</span></i>
+        </div>
+      </div>
+    </div>
+
+    <div class="navbar dropdown-menu">
+      <div class="container">
+        <div class="dropdown">
+          <button
+            class="btn btn-secondary dropdown-toggle"
+            type="button"
+            id="dropdownMenuButton"
+            data-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false"
+          >
+            <i class="fa-solid fa-bars"></i> All Departments
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="#">Dairy, Bread & Eggs</a>
+            <a class="dropdown-item" href="#">Snacks & Munchies</a>
+            <a class="dropdown-item" href="#">Fruits & Vegetables</a>
+            <a class="dropdown-item" href="#">Cold Drinks & Juices </a>
+            <a class="dropdown-item" href="#">Breakfast & Instant Food</a>
+            <a class="dropdown-item" href="#">Bakery & Biscuits</a>
+            <a class="dropdown-item" href="#">Chicken, Meat & Fish</a>
+          </div>
+        </div>
+
+        <ul class="menu">
+          <li>
+            <a href="#">Home</a>
+            <ul class="submenu" style="width: 180px; height: 250px">
+              <li><a href="#"> Home 1 </a></li>
+              <li><a href="#">Home 2</a></li>
+              <li><a href="#">Home 3</a></li>
+              <li><a href="#">Home 4</a></li>
+              <li><a href="#">Home 5</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">Shop</a>
+            <ul class="submenu" style="width: 250px">
+              <li><a href="#">Shop Grid - Filter</a></li>
+              <li><a href="#">Shop Grid - 3 column</a></li>
+              <li><a href="#">Shop List - Filter</a></li>
+              <li><a href="#">Shop - Filter</a></li>
+              <li><a href="#">Shop Wide</a></li>
+              <li><a href="#">Shop Single</a></li>
+              <li><a href="#">Shop Single v2</a></li>
+              <li><a href="#">Shop Wishlist</a></li>
+              <li><a href="#">Shop Cart</a></li>
+              <li><a href="#">Shop Checkout</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">Stores</a>
+            <ul class="submenu" style="width: 180px">
+              <li><a href="#">Store List</a></li>
+              <li><a href="#">Store Grid</a></li>
+              <li><a href="#">Store Single</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">Mega menu</a>
+            <ul class="submenu">
+              <p
+                style="
+                  width: 150px;
+                  color: rgb(70, 128, 12);
+                  font-weight: bold;
+                  margin-right: 20px;
+                "
+              >
+                Dairy, Bread & Eggs
+              </p>
+              <li><a href="#">Butter</a></li>
+              <li><a href="#">Milk Drinks</a></li>
+              <li><a href="#">Curd & Yogurt</a></li>
+              <li><a href="#">Eggs</a></li>
+              <li><a href="#">Buns & Bakery</a></li>
+              <li><a href="#">Cheese</a></li>
+              <li><a href="#">Condensed Milk</a></li>
+              <li><a href="#">Dairy Products</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">Pages</a>
+            <ul class="submenu" style="width: 200px">
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Blog single</a></li>
+              <li><a href="#">Blog Category</a></li>
+              <li><a href="#">Blog Category</a></li>
+              <li><a href="#">Blog Category</a></li>
+              <li><a href="#">Blog Category</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">Account</a>
+            <ul class="submenu" style="width: 200px">
+              <li><a href="#">Sign in</a></li>
+              <li><a href="#">Signup</a></li>
+              <li><a href="#">Forgot Password</a></li>
+              <li><a href="#">My Account</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#"> Dashboard</a>
+            <ul class="submenu" style="width: 200px"></ul>
+          </li>
+          <li>
+            <a href="#">Docs</a>
+            <ul class="submenu" style="width: 200px"></ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <section class="section1">
+      <div class="container">
+        <div class="slider">
+          <div class="slide active">
+            <div class="text">
+              <h6>Opening Sale Discount 50%</h6>
+              <h1>
+                SuperMarket For <br />
+                Fresh Grocery
+              </h1>
+              <p>
+                Introduced a new model for online grocery shopping <br />
+                and convenient home delivery.
+              </p>
+              <button>Shop Now<i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+
+            <img src="./src/img/slide-1.jpg" alt="Resim 1" />
+          </div>
+          <div class="slide">
+            <div class="text">
+              <h6>Opening Sale Discount 50%</h6>
+              <h1>
+                Free Shipping - <br />
+                orders over $100
+              </h1>
+              <p>
+                Introduced a new model for online grocery shopping <br />
+                and convenient home delivery.
+              </p>
+              <button>Shop Now<i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+            <img src="./src/img/slider-2.jpg" alt="Resim 2" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section2">
+      <div class="container">
+        <div class="container-fluid ">
+          <div class="row-cols-lg-6 d-flex w-100 ">
+            <div class="col-md-6 ">
+              <div class="card custom-card">
+                <div class="card-body">
+                  <img src="./src/img/category-atta-rice-dal (1).jpg" alt="">
+                  <h5 class="card-title">Atta,Rice & Dal</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="card custom-card">
+                <div class="card-body">
+                  <img src="./src/img/category-snack-munchies.jpg" alt="">
+                  <h5 class="card-title">Snack munhen</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="card custom-card">
+                <div class="card-body">
+                  <img src="./src/img/category-baby-care.jpg" alt="">
+                  <h5 class="card-title">Baby Care</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="card custom-card">
+                <div class="card-body">
+                  <img src="./src/img/category-chicken-meat-fish.jpg" alt="">
+                  <h5 class="card-title">Backery & Biscuits</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="card custom-card">
+                <div class="card-body">
+                  <img src="./src/img/category-dairy-bread-eggs (1).jpg" alt="">
+                  <h5 class="card-title">Pet care</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="card custom-card">
+                <div class="card-body">
+                  <img src="./src/img/category-instant-food.jpg" alt="">
+                  <h5 class="card-title">Instand Food</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row-rows-lg-6 d-flex "  style="margin-top: 100px;">
+          <div class="col-md-6" style="border: 0;">
+            <div class="card" style="border: 0;">
+              <div class="card-body " style="position: relative;">
+                <div class="text" style="position: absolute; top: 50px;left: 40px;">
+                  <h1>Fruits & Vegetables</h1>
+                  <p>Get Upto 30% Off</p>
+                  <button style="padding: 5px 15px ;border-radius: 10px;background: #000; color: #ffffff;">Shop Now</button>
+                </div>
+                <img src="./src/img/grocery-banner.png" alt="....." style="width: 100%; object-fit: cover;">
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="card" style="border: 0;">
+              <div class="card-body"  style="position: relative;">
+
+                <div class="text" style="position: absolute; top: 50px;left: 40px;">
+                  <h1>Fruits & Vegetables</h1>
+                  <p>Get Upto 30% Off</p>
+                  <button style="padding: 5px 15px ;border-radius: 10px;background: #000; color: #ffffff;">Shop Now</button>
+                </div>
+                <img src="./src/img/grocery-banner-2.jpg" alt="...." style="width: 100%; object-fit: cover;">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section3">
+      <div class="container">
+        <div class="row-cols-lg-6 d-flex"  style="gap: 20px; margin-bottom: 50px;">
+          <div class="col-md-6">
+            <div class="card" style="display: flex; flex-direction: column;justify-content: center;align-items: center;">
+              <div class="card-body">
+                <img src="./src/img/category-tea-coffee-drinks.jpg" alt="">
+              </div>
+
+              <p>Dairy, Bread & Eggs</p>
+              <h6>Blueberry Greek Yogurt</h6>
+              <p>$18 $24</p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card" style="display: flex; flex-direction: column;justify-content: center;align-items: center;">
+              <div class="card-body">
+                <img src="./src/img/category-tea-coffee-drinks.jpg" alt="">
+              </div>
+
+              <p>Dairy, Bread & Eggs</p>
+              <h6>Blueberry Greek Yogurt</h6>
+              <p>$18 $24</p>
+            </div>
+          </div> <div class="col-md-6">
+            <div class="card" style="display: flex; flex-direction: column;justify-content: center;align-items: center;">
+              <div class="card-body">
+                <img src="./src/img/category-tea-coffee-drinks.jpg" alt="">
+              </div>
+
+              <p>Dairy, Bread & Eggs</p>
+              <h6>Blueberry Greek Yogurt</h6>
+              <p>$18 $24</p>
+            </div>
+          </div> <div class="col-md-6">
+            <div class="card" style="display: flex; flex-direction: column;justify-content: center;align-items: center;">
+              <div class="card-body">
+                <img src="./src/img/category-tea-coffee-drinks.jpg" alt="">
+              </div>
+
+              <p>Dairy, Bread & Eggs</p>
+              <h6>Blueberry Greek Yogurt</h6>
+              <p>$18 $24</p>
+            </div>
+          </div> <div class="col-md-6">
+            <div class="card" style="display: flex; flex-direction: column;justify-content: center;align-items: center;">
+              <div class="card-body">
+                <img src="./src/img/category-tea-coffee-drinks.jpg" alt="">
+              </div>
+
+              <p>Dairy, Bread & Eggs</p>
+              <h6>Blueberry Greek Yogurt</h6>
+              <p>$18 $24</p>
+            </div>
+          </div> <div class="col-md-6">
+            <div class="card" style="display: flex; flex-direction: column;justify-content: center;align-items: center;">
+              <div class="card-body">
+                <img src="./src/img/category-tea-coffee-drinks.jpg" alt="">
+              </div>
+
+              <p>Dairy, Bread & Eggs</p>
+              <h6>Blueberry Greek Yogurt</h6>
+              <p>$18 $24</p>
+            </div>
+          </div>
+        </div>
+        <div class="row-cols-lg-6 d-flex"  style="gap: 20px;">
+          <div class="col-md-6">
+            <div class="card" style="display: flex; flex-direction: column;justify-content: center;align-items: center;">
+              <div class="card-body">
+                <img src="./src/img/category-tea-coffee-drinks.jpg" alt="">
+              </div>
+
+              <p>Dairy, Bread & Eggs</p>
+              <h6>Blueberry Greek Yogurt</h6>
+              <p>$18 $24</p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card" style="display: flex; flex-direction: column;justify-content: center;align-items: center;">
+              <div class="card-body">
+                <img src="./src/img/category-tea-coffee-drinks.jpg" alt="">
+              </div>
+
+              <p>Dairy, Bread & Eggs</p>
+              <h6>Blueberry Greek Yogurt</h6>
+              <p>$18 $24</p>
+            </div>
+          </div> <div class="col-md-6">
+            <div class="card" style="display: flex; flex-direction: column;justify-content: center;align-items: center;">
+              <div class="card-body">
+                <img src="./src/img/category-tea-coffee-drinks.jpg" alt="">
+              </div>
+
+              <p>Dairy, Bread & Eggs</p>
+              <h6>Blueberry Greek Yogurt</h6>
+              <p>$18 $24</p>
+            </div>
+          </div> <div class="col-md-6">
+            <div class="card" style="display: flex; flex-direction: column;justify-content: center;align-items: center;">
+              <div class="card-body">
+                <img src="./src/img/category-tea-coffee-drinks.jpg" alt="">
+              </div>
+
+              <p>Dairy, Bread & Eggs</p>
+              <h6>Blueberry Greek Yogurt</h6>
+              <p>$18 $24</p>
+            </div>
+          </div> <div class="col-md-6">
+            <div class="card" style="display: flex; flex-direction: column;justify-content: center;align-items: center;">
+              <div class="card-body">
+                <img src="./src/img/category-tea-coffee-drinks.jpg" alt="">
+              </div>
+
+              <p>Dairy, Bread & Eggs</p>
+              <h6>Blueberry Greek Yogurt</h6>
+              <p>$18 $24</p>
+            </div>
+          </div> <div class="col-md-6">
+            <div class="card" style="display: flex; flex-direction: column;justify-content: center;align-items: center;">
+              <div class="card-body">
+                <img src="./src/img/category-tea-coffee-drinks.jpg" alt="">
+              </div>
+
+              <p>Dairy, Bread & Eggs</p>
+              <h6>Blueberry Greek Yogurt</h6>
+              <p>$18 $24</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="./src/js/main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+      let currentSlide = 0;
+      const slides = document.querySelectorAll(".slide");
+      const nextSlide = () => {
+        slides[currentSlide].classList.remove("active");
+        currentSlide = (currentSlide + 1) % slides.length;
+        slides[currentSlide].classList.add("active");
+      };
+      setInterval(nextSlide, 3000); // 2 saniyede bir otomatik geçiş
+    </script>
+  </body>
+</html>
